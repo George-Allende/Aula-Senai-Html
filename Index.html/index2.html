@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mudança de Cor Suave</title>
+<style>
+.texto {
+  color: red;
+  transition: color 1s ease-in-out;
+}
+
+.texto.nova-cor {
+  color: blue;
+}
+.texto.nova-cor {
+  color: rgb(255, 0, 0);
+}
+.texto.nova-cor {
+  color: rgb(9, 255, 0);
+}
+</style>
+</head>
+<body>
+
+<span class="texto">Lucca piscante</span>
+
+<script>
+const texto = document.querySelector('.texto');
+
+setInterval(() => {
+  texto.classList.toggle('nova-cor');
+}, 2000); // Alterna a classe a cada 1 segundos
+</script>
+
+</body>
+</html>

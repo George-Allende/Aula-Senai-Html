@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova guia</title>
+</head>
+<body>
+    <h1>GitHub</h1>
+    <p style="color: aqua;">Meu primeiro GitHub</p>
+    <h4 style="color: rgb(18, 233, 150);">Bem vindo</h4>
+    <p class="texto-transicao">Este texto terá uma transição de cor.</p>
+
+
+    
+</body>
+</html>
